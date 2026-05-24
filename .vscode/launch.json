@@ -1,1 +1,13 @@
-
+{
+    "version":"0.2.0",
+    "configurations":[
+        {
+            "name":"Run Chess",
+            "type":"cppdbg",
+            "request":"launch",
+            "program":"${workspaceFolder}/bin/chess.exe",
+            "cwd":"${workspaceFolder}",
+            "MIMode":"gdb"
+        }
+    ]
+}
