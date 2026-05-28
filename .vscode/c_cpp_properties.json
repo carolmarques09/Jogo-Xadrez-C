@@ -6,7 +6,8 @@
             "includePath":[
                 "${workspaceFolder}/include",
                 "C:/raylib/include",
-                "C:/mysql/include"
+                "C:/mysql/include",
+                "C:/Program Files/MySQL/MySQL Server 8.0/include"
             ],
 
             "compilerPath":"C:/mingw64/bin/gcc.exe",

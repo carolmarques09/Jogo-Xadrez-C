@@ -1,6 +1,6 @@
 /* parte de Pedro */
 
-#include <mysql/mysql.h>
+#include <mysql.h>
 #include <stdio.h>
 
 MYSQL *conn;
@@ -13,7 +13,7 @@ void conectarBanco() {
         conn,
         "localhost",
         "root",
-        "senha",
+        "DataBase*801200",
         "xadrez",
         3306,
         NULL,
