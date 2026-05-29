@@ -1,8 +1,10 @@
+#include "database.h"
 #include "game.h"
 
-int main() {
+int main(void) {
 
     iniciarJogo();
+    fecharBanco();
 
     return 0;
 }
