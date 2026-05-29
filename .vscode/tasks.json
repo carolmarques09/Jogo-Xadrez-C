@@ -1,0 +1,27 @@
+{
+    "version":"2.0.0",
+    "tasks":[
+        {
+            "label":"Build Chess",
+            "type":"shell",
+            "command":"gcc",
+            "args":[
+                "src/*.c",
+
+                "-Iinclude",
+
+                "-IC:/raylib/include",
+                "-LC:/raylib/lib",
+
+                "-IC:/mysql/include",
+                "-LC:/mysql/lib",
+
+                "-lraylib",
+                "-lmysql",
+
+                "-o",
+                "bin/chess.exe"
+            ]
+        }
+    ]
+}
